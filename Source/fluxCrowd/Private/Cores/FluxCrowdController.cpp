@@ -86,6 +86,12 @@ AFluxCrowdController::AFluxCrowdController()
 
 void AFluxCrowdController::StartCrowd_Implementation()
 {
+	if (IsDebug)
+	{
+		UE_LOG(LogTemp, Log, TEXT("START CROWD"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("START CROWD"));
+	}
+	
 	if (!HasAuthority()) return;
 	
 	if (FluxCurrentCrowdStatus == EFluxCrowdStatus::EDisableStatus) return;
@@ -99,6 +105,12 @@ void AFluxCrowdController::StartCrowd_Implementation()
 
 void AFluxCrowdController::ResetCrowd_Implementation(EFluxCrowdResetType type)
 {
+	if (IsDebug)
+	{
+		UE_LOG(LogTemp, Log, TEXT("RESET CROWD"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("RESET CROWD"));
+	}
+	
 	if (!HasAuthority()) return;
 	
 	switch (type)
@@ -119,6 +131,12 @@ void AFluxCrowdController::ResetCrowd_Implementation(EFluxCrowdResetType type)
 
 void AFluxCrowdController::EndCrowd_Implementation()
 {
+	if (IsDebug)
+	{
+		UE_LOG(LogTemp, Log, TEXT("END CROWD"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("END CROWD"));
+	}
+	
 	if (!HasAuthority()) return;
 	
 	FluxCurrentCrowdStatus = EFluxCrowdStatus::EDisableStatus;

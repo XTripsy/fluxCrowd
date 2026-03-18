@@ -33,6 +33,9 @@ private:
 	
 protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (DisplayPriority = "0"))
+	bool IsDebug = false;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (DisplayPriority = "0"))
 	bool IsAutoActive = false;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (DisplayPriority = "0"))

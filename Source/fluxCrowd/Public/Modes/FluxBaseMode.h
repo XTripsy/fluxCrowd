@@ -13,6 +13,10 @@ class FLUXCROWD_API UFluxBaseMode : public UObject
 {
 	GENERATED_BODY()
 	
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category= "Debug")
+	bool IsDebug;
+	
 public:
 	UPROPERTY(BlueprintReadOnly)
 	TObjectPtr<UWorld> World;
