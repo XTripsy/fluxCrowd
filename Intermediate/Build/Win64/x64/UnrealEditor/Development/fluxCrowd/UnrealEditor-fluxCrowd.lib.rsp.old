@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-fluxCrowd.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/UnrealProject/Crowd/Intermediate/Build/Win64/x64/CrowdEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/Module.fluxCrowd.cpp.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/fluxCrowd.cpp.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/FluxCrowdController.cpp.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/FluxCrowdSubsystem.cpp.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/FluxBaseMode.cpp.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/FluxBaseState.cpp.obj"
+"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/Default.rc2.res"
+/OUT:"D:/UnrealProject/Crowd/Plugins/fluxCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/fluxCrowd/UnrealEditor-fluxCrowd.lib"
